@@ -16,6 +16,10 @@
     
 }
 
+.about-image {
+    padding: 0 50px 50px 50px;
+}
+
 .line {
     width: 5px;
     background-color: #929090;

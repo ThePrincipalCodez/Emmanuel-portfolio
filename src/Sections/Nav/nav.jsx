@@ -63,7 +63,7 @@ export default function Nav() {
           </li>
           <li onClick={() => swapColor(2)} >
             <Link href="#skills" to="#skills" smooth>
-              <h3 className={navColor === 2 ? 'main-active-nav' : 'main-default'}>Skills</h3>
+              <h3 className={navColor === 2 ? 'main-active-nav' : 'main-default'}>Projects</h3>
             </Link>
           </li>
           <li onClick={() => swapColor(3)}>
