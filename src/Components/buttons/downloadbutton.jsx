@@ -5,7 +5,7 @@ import './btn.css'
 export default function Downloadbutton() {
 
   return (
-    <a href = "WISDOM-CV.pdf" download="WISDOM-CV.pdf">
+    <a href = "ODEFADEHAN EMMANUEL DAYO CV.pdf" download="ODEFADEHAN EMMANUEL DAYO CV.pdf">
       <button className='button' >
         Download CV
       </button>
