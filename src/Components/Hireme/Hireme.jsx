@@ -8,7 +8,7 @@ function HireMe() {
         <div className="button-wrapper">
             <a href="#">
                 <button className="hire-button">
-                    Reach Me
+                    Holla @ ya boy
                 </button>
             </a>
 
