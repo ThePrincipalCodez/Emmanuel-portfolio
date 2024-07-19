@@ -5,6 +5,7 @@ import Skills from "../Sections/skills/skills";
 import Header from "../Sections/header/header";
 import Certification from "../Sections/certifications";
 import ContactMe from "../Sections/contact me/contact";
+import HireMe from "../Components/Hireme/Hireme";
 // import{ ActiveSection } from "../context/ActiveSectionContext";
 
 function Index() {
@@ -22,6 +23,7 @@ function Index() {
           <Skills />
           <Certification />
           <ContactMe />
+          <HireMe />
         </div>
         {/* <div className="app">
       </div>     */}

@@ -1,0 +1,24 @@
+
+
+.hire-button {
+    width: 100px;
+    font-weight: 900;
+    color: #0b926a;
+    border: none;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    filter: drop-shadow(2px 5px 10px #16DBA1);
+    /* filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)); */
+}
+
+.button-wrapper {
+    position: fixed;
+    
+    right: 0;
+    bottom: 0;
+    margin: 30px;
+
+}

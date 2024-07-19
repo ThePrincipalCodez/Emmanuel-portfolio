@@ -19,7 +19,7 @@ export default function Skills() {
     return <ProjectCard key={e.id} {...e} />;
   });
 
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -30,19 +30,19 @@ export default function Skills() {
       <div className="line"> </div>
       <div className="skills-wrapper">
         <div className="content-wrapper">
-          <h1 className="skills-section-header">Skills</h1>
+          <h1 className="skills-section-header">Projects</h1>
           <div className="skills-mini-nav">
+          <button
+              onClick={() => toggleTab(2)}
+              className={toggleState === 2 ? "active-nav" : "default"}
+            >
+              Projects
+            </button>
             <button
               onClick={() => toggleTab(1)}
               className={toggleState === 1 ? "active-nav" : "default"}
             >
               Skill set
-            </button>
-            <button
-              onClick={() => toggleTab(2)}
-              className={toggleState === 2 ? "active-nav" : "default"}
-            >
-              Projects
             </button>
           </div>
           <div

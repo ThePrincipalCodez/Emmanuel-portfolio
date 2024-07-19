@@ -13,7 +13,7 @@
     align-items: center;
     text-align: left;
 
-    width: 200px;
+    width: 250px;
     
     border: 1px solid white;
     gap: 20px;
@@ -21,13 +21,17 @@
 }
 
 .cert-btn {
-    width: 70px;
+    width: 200px;
     height: 40px;
 
     background: white;
     color: black;
     border: none;
     border-radius: 5px;
+}
+
+.cert-image {
+    width: 200px;
 }
 a {
     color: black;
