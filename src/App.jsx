@@ -7,7 +7,7 @@ import Index from './Pages';
 const App = () => {
 
   useEffect(() => {
-    document.title = " Wisdom Iwunwa";
+    document.title = " Emmanuel Emmanuel Odefadehan";
   });
 
   return (
