@@ -7,7 +7,7 @@ import Index from './Pages';
 const App = () => {
 
   useEffect(() => {
-    document.title = " Emmanuel Emmanuel Odefadehan";
+    document.title = "Emmanuel Odefadehan";
   });
 
   return (
