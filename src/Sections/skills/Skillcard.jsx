@@ -3,7 +3,7 @@ import "./skills.css";
 
 export default function Card(props) {
   return (
-    <div className="slill-cards">
+    <div className="skill-cards">
       <div className="card-wrapper">
         <h3 className="card-title">{props.title}</h3>
         <p className="card-text">{props.description}</p>

@@ -16,9 +16,9 @@ export default function ProjectCard(props) {
           </div>
         <p className="text">{props.description}</p>
 
-        <a href={props.link} target="blank">
+        {/* <a href={props.link} target="blank">
           <button className="button">view</button>
-        </a>
+        </a> */}
       </div>
     </div>
   );

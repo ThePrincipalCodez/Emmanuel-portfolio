@@ -16,7 +16,7 @@ export default function ContactMe() {
 
       <div className="copyright-section">
         <p>
-            Designed and developed by Wisdom ©️ 2023
+            Designed and developed by Wisdom & The Quiver Hub ©️ 2023
         </p>
       </div>
     </div>

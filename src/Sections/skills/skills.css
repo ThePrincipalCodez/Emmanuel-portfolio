@@ -63,14 +63,15 @@
 /* CARD AREA */
 .card-wrapper {
     border: 1px solid white;
-    width: 210px;
+    width: 250px;
+    height: 300px;
     padding: 10px;
     border-radius: 5px;
 
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
+    text-align: center;
 }
 
 .card-render-wrapper{
@@ -93,7 +94,7 @@
 
 
 .card-text {
-    width: 200px;
+    width: auto;
     text-align: center;
     color: #929090;
 }
@@ -123,5 +124,11 @@
     .active-tab {
         justify-content: flex-start;
        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card-wrapper {
+        width: 220px;
     }
 }
