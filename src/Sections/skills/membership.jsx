@@ -10,9 +10,9 @@ export default function Memberships(props) {
             {" "}
             {props.title}
             <br />
-            <a href={props.link}>
+            <a href={props.link} target="blank">
               {" "}
-              <i style={{ color: "white" }}> click here </i>
+              <button style={{ color: "white", width: '100px', border: '1px solid white', borderRadius: '5px'}}> Visit </button>
             </a>
           </li>
         </ul>
