@@ -21,6 +21,12 @@
     color: #929090;
 }
 
+.memberships {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 @media screen and (max-width: 1000px) {
     .p-wrapper {
         width: 210px;
