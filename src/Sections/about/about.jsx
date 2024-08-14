@@ -1,5 +1,5 @@
 import "./about.css";
-import Downloadbutton from "../../Components/buttons/downloadbutton";
+// import Downloadbutton from "../../Components/buttons/downloadbutton";
 
 export default function About() {
   return (
@@ -14,10 +14,10 @@ export default function About() {
               <div className="first-text-section">
                 <div className="header-texts">
                   <h3> Hello, I'm </h3>
-                  <h2 style={{ color: "#fff" }}> Engr. Emmanuel Odefadehan,</h2>
-                  <h4>
-                    PMP® Engineering Manager | Project Management Professional
-                    Engr.
+                  <h2 style={{ color: "#fff" }}> Engr. Emmanuel D. Odefadehan</h2>
+                  <h4 >
+                    Project Coordination And Management  | Operations Efficiency And 
+                    Management | Business Sustainability
                   </h4>
                 </div>
                 <p className="section-content">
@@ -38,7 +38,7 @@ export default function About() {
                   maintenance of machines, equipment, and racking systems.
                 </p>
                 <br />
-                <Downloadbutton />
+                {/* <Downloadbutton /> */}
               </div>
             </div>
           </div>
