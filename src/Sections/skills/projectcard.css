@@ -27,6 +27,11 @@
     gap: 20px;
 }
 
+.cards, .p-wrapper{
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
     .p-wrapper {
         width: 210px;
@@ -39,8 +44,8 @@
     .title {
         font-size: 1rem;
     }
-    .project-img {
+    /* .project-img {
         width: 200px;
         height: 150px;
-    }
+    } */
 }

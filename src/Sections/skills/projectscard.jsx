@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
         <div className="card-images">
           <img src={props.image}
           height={200}
-          width={350}
+          width={200}
           alt="" 
           className="project-img"
           />
